@@ -1,0 +1,56 @@
+    /* Custom Accordion Styles */
+    .custom-accordion .card {
+        border: none;
+        background: none;
+        margin-bottom: 15px;
+      }
+  
+      .custom-accordion .card-header {
+        padding: 0;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+      }
+  
+      .custom-accordion .btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 15px 20px; /* Adjusted padding for better spacing */
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        font-weight: bold;
+        color: #333;
+        text-align: left;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px; /* Add margin-bottom to create space between items */
+    }
+  
+    .custom-accordion .btn.collapsed {
+        background-color: #fff;
+        box-shadow: none;
+        margin-bottom: 10px; /* Ensure margin even when collapsed */
+    }
+    
+  
+      .custom-accordion .btn::after {
+        content: '+';
+        font-size: 1.5rem;
+        color: #007bff;
+      }
+  
+      .custom-accordion .btn:not(.collapsed)::after {
+        content: '-';
+      }
+  
+      .custom-accordion .btn:hover {
+        text-decoration: none;
+        background-color: #f0f0f0;
+      }
+  
+      .custom-accordion .card-body {
+        background-color: #fff;
+        border-radius: 0 0 10px 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
