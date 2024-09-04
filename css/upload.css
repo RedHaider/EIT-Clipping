@@ -1,0 +1,29 @@
+.upload-section {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.upload-section input[type="file"] {
+    display: none;
+}
+
+.upload-section label {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination li a {
+    color: #007bff;
+}
