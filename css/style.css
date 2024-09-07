@@ -52,6 +52,10 @@
     height: auto;
 }
 
+.home-two{
+  background: #EFF8FE;
+}
+
 .hometwoH{
     font-family: Livvic;
     font-size: 40px;
@@ -77,8 +81,8 @@
 }
 
 .carousel-inner .col img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -211,6 +215,16 @@ color: #FFFFFF;
   letter-spacing: 0.01em;
   text-align: left;
   color: #747474;
+  padding-left: 10%;
+}
+
+.home-six-two-text{
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #747474;
 }
 
 .home-six-heading{
@@ -219,26 +233,17 @@ color: #FFFFFF;
   font-weight: 500;
   line-height: 36.04px;
   text-align: left;
+  margin-bottom: -15px;
 }
 .home-six-card{
   background-color: #FFFFFF;
   z-index: 1;
   width: 100%;
   border-radius: 10px;
-  padding: 80px 50px 80px 50px;
+  padding: 50px 50px 50px 50px;
 }
 
-.home-six-image{
-  position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
-  width: 80px; /* Adjust the size of the image */
-  height: 80px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-  z-index: 10; /* Ensure the image appears above the card */
-}
+
 
 .home-six-headingtwo{
   font-family: Livvic;
@@ -312,9 +317,9 @@ color: #FFFFFF;
 .home-six-image{
   position: absolute;
   top: 40%;
-  transform: translateY(-50%);
-  width: 80px; /* Adjust the size of the image */
-  height: 80px;
+  transform: translateY(-35%);
+  width: 70px; /* Adjust the size of the image */
+  height: 70px;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: cover;
@@ -691,3 +696,30 @@ color: #FFFFFF;
   color: white;
 }
 
+/* Position both carousel controls at the bottom-right */
+.custom-carousel-control {
+  position: absolute;
+  bottom: 0px; /* Adjust for vertical positioning */
+  right: 0px;  /* Adjust for horizontal positioning */
+  z-index: 10;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  width: 10px; /* Control how far apart the buttons are */
+}
+
+/* Customize the look of the prev and next buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for better visibility */
+  padding: 10px;
+  border-radius: 50%; /* Makes the buttons circular */
+}
+
+.carousel-control-prev-icon {
+  margin-right: 10px; /* Space between < and > */
+}
+
+.carousel-control-next-icon {
+  margin-left: 10px; /* Space between < and > */
+}
