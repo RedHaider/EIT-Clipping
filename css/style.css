@@ -219,6 +219,15 @@ color: #FFFFFF;
   color: #747474;
   padding-left: 10%;
 }
+.service-six-text{
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #747474;
+  padding-left: 12%;
+  padding-right: 12%;
+}
 
 .home-six-two-text{
   font-family: Livvic;
@@ -245,6 +254,13 @@ color: #FFFFFF;
   padding: 50px 50px 50px 50px;
 }
 
+.service-six-card{
+  background-color: #FFFFFF;
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px 5px 50px 5px;
+}
 
 
 .home-six-headingtwo{
@@ -725,4 +741,18 @@ color: #FFFFFF;
 
 .carousel-control-next-icon {
   margin-left: 10px; /* Space between < and > */
+}
+
+.home-footer{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.service-two{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.service-card-text{
+  padding-left: 12%;
 }
