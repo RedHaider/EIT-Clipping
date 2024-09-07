@@ -17,6 +17,8 @@
 .home-nav{
   /* Add the bottom shadow */
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .home-nav-font{
@@ -414,6 +416,7 @@ color: #FFFFFF;
 
 .home-courasal-img img {
   padding-right: 10px;
+  width: 150px;
 }
 /* The home page ends here */
 
